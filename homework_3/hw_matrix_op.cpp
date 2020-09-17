@@ -1,3 +1,12 @@
+/*  -----------------------------------
+    C++ coding practice
+    
+    By Pingkun Yan, Ph.D.
+    Department of Biomedical Engineering
+    Rensselaer Polytechnic Institute
+    ----------------------------------- */
+
+
 #include <iostream>
 #include <fstream>
 
@@ -20,7 +29,7 @@
 
 /*  ---------------------------------------------------------------------
     Task #2:
-    1. Change Line 4 of the code to
+    1. Change Line #13 of the code to
         #define PRINT 1
     2. Compile the code and run
     3. Fix this print function to output the items of mat to your terminal in a nice format.
@@ -76,8 +85,8 @@ int Add_Matrics(double** mat_A, int row_A, int col_A,
 
 /*  ---------------------------------------------------------------------
     Task #4:
-    1. Comment Line 6 of this code
-    2. Uncomment Line 7 of this code
+    1. Comment Line 15 of this code
+    2. Uncomment Line 16 of this code
     3. Compile and run to test your code. Check your output.
     4. Record your screen output and put into the submission document
     5. Move to Task #5
@@ -101,8 +110,8 @@ int Add_Matrics(double** mat_A, int row_A, int col_A,
         Step 2. Allocate memory using "new" by following the example in main() for A & B
         Step 3. Use loops to compute matrix multiplication
 
-    2. Comment Line 7 of this code
-    3. Uncomment Line 8 of this code
+    2. Comment Line 16 of this code
+    3. Uncomment Line 17 of this code
     4. Compile and run your code.  Check your output and fix any issues.
     5. Record your screen output and put into the submission document
     6. Move to Task #6
@@ -121,8 +130,8 @@ int Mul_Matrics(double** mat_A, int row_A, int col_A,
 
 /*  ---------------------------------------------------------------------
     Task #6:
-    1. Comment Line 8 of this code
-    2. Uncomment Line 9 of this code
+    1. Comment Line 17 of this code
+    2. Uncomment Line 18 of this code
     3. Compile and run to test your code. Check your output.
     4. Record your screen output and put into the submission document
     5. Congratulations! You have successfully finished your matrix operation programming!
