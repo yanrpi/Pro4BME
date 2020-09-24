@@ -61,7 +61,9 @@ void LoadMatrix(std::string filename, Matrix &mat) {
 
     // Load matrix into mat 
     int rows=0, columns=0;
+    // The first line of the file is number of rows
     infile >> rows;
+    // The second line of the file is number of cols
     infile >> columns;
 
     // Define matrix
@@ -79,6 +81,7 @@ void LoadVector(std::string filename, Vector &vec) {
 
     // Load matrix into mat 
     int dimension = 0;
+    // The first line of the file is the length of the vector
     infile >> dimension;
 
     // Define vector
@@ -169,8 +172,8 @@ int main(int argc, char* argv[]) {
     /*  ---------------------------------------------------------------------
         Task #4: (no coding required in this file)
         1. Create your own 7x6 matrices and a length of 7 vector
-        2. Replace the matrics and vector in the text files (*.txt) with your own creation
-        3. Run your program to see if your code gives correct answers. Fix problems
+        2. Edit the text files (*.txt) to replace the matrics and vector with your own creation.
+        3. Run your program to verify if your code gives correct answers. Fix problems
             if there is any.
         4. Add the screenshots of output to your submission file with correspoinding illustration.
         5. Move to Task #5 
