@@ -119,6 +119,9 @@ int main(int argc, char* argv[]) {
         Task #1: Matrix addition
         1. Declare and implement your own function above main() to add matrics A and B, 
             and put output into a new matrix Y.
+            (*Optional: modify your addition function to support
+            both addition and subtraction, with an additional
+            input parameter to control the operation.)
         2. Call your function here
         3. Use the Print_Matrix() function to print out the result Y
         4. Add the screenshot of output to your submission file with correspoinding illustration.
@@ -128,14 +131,20 @@ int main(int argc, char* argv[]) {
 
 
     /*  ---------------------------------------------------------------------
-        Task #2: Matrix addition
-        1. Declare and implement your own function above main() to subtract matrix B from A 
-            and put output into Y. (Optional: modify your addition function to support
-            both addition and subtraction, with an additional input parameter to control
-            the operation.)
-        2. Call your function here
-        3. Use the Print_Matrix() function to print out the result Y
+        Task #2: Matrix transpose
+        1. Declare and implement your own function above main() to transpose a matrix
+            and put output into T. For example, a matrix of
+            1 2 3
+            4 5 6
+            will become
+            1 4
+            2 5
+            3 6
+            after transpose operation.
+        2. Call your function here to transpose A
+        3. Use the Print_Matrix() function to print out the result T
         4. Add the screenshot of output to your submission file with correspoinding illustration.
+        5. Repeat 2-4 for matrix B
         5. Move to Task #3
     */
 
@@ -163,7 +172,7 @@ int main(int argc, char* argv[]) {
         2. Replace the matrics and vector in the text files (*.txt) with your own creation
         3. Run your program to see if your code gives correct answers. Fix problems
             if there is any.
-        4. Add the screenshot of output to your submission file with correspoinding illustration.
+        4. Add the screenshots of output to your submission file with correspoinding illustration.
         5. Move to Task #5 
     */
 
